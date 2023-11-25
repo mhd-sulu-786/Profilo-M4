@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+}
+.hero{
+    background-image: url("assist/img/photo-1.jpg");
+    width: 100%;
+    height: 100vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.nav{
+    display: flex;
+    align-items: baseline;
+}
+.nav-item button{
+    background: orange;
+    color: white;
+    border: solid orange;
+    padding-inline: 15px;
+}
+.nav-link{
+
+   text-decoration: none;
+   color: rgb(101, 96, 96);
+}
+.content{
+    display: block;
+    position: absolute;
+  top: 50%;
+  left: 15%;
+  border: solid white;
+  padding: 25px;
+  color: black;
+  background: white;
+}
+.content button{
+    background: orange;
+    color: white;
+    border: solid orange;
+    padding-inline: 15px;
+}
+.col-3 img{
+    width: 100%;
+    height: 220px;
+}
+.hor{
+    border-bottom: 4px solid yellow;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.heading{
+    font-family: cursive;
+}
+.hor1{
+    border-bottom: 4px solid yellow;
+    width: 60px;
+
+}
+.BLOG{
+    margin-top: 180px;
+}
+.card-body img{
+    height: 260px;
+    width: 350px;
+}
